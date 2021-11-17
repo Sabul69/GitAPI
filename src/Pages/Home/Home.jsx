@@ -31,7 +31,7 @@ const Home = () => {
             handleUser={handleUser}
             handleSearch={handleSearch}
             />
-            <div className="flex place-content-center">
+            <div className="flex place-content-center pb-20">
         {Information &&
             (<UserCard
             avatar={Information?.avatar_url}

@@ -7,7 +7,7 @@ import './UserCard.styles.css'
 const UserCard = ({error, ...rest}) => {
     return (
       
-      <div className="rounded-lg box-content mx-3 card bg-color4">
+      <div className="rounded-lg box-content mx-4 card bg-color4">
         {error? (<Error/>) : <Card rest={rest}/>}
     </div>
     )

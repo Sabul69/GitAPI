@@ -28,8 +28,8 @@ const Followers = () => {
 
   return (
     <div className="">
-      <h2 className="pt-12 font-bold text-4xl text-left ml-44">{`Followers: ${user}`}</h2>
-      <div className="flex flex-wrap w-10/12 m-auto justify-around">
+      <h2 className="pt-12 font-bold text-3xl text-left ml-44">{`Followers: ${user}`}</h2>
+      <div className="flex flex-wrap w-11/12 m-auto justify-around">
         {followers && followers.length > 0 && !loader ? (
             followers.map(user => (
             <UserCard
